@@ -1,7 +1,7 @@
 import { ConversationSummaryMemory } from "langchain/memory";
 import { ConversationChain } from "langchain/chains";
 import { PromptTemplate } from "@langchain/core/prompts";
-import M from '../model.js';
+import M from '../../llm/model.js';
 
 const chatModel = M('openai');
 

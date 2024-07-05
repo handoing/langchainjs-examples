@@ -4,7 +4,7 @@ import {
     HumanMessagePromptTemplate,
 } from "@langchain/core/prompts";
 import { StringOutputParser } from "@langchain/core/output_parsers";
-import M from '../model.js';
+import M from '../../llm/model.js';
 
 const chatPrompt = ChatPromptTemplate.fromMessages([
     SystemMessagePromptTemplate.fromTemplate('你是一个专业的翻译员，你的任务是将文本从{source_lang}翻译成{target_lang}。'),

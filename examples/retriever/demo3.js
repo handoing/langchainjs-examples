@@ -1,8 +1,8 @@
 import { FaissStore } from "@langchain/community/vectorstores/faiss";
 import { MultiQueryRetriever } from "langchain/retrievers/multi_query";
 import { resolve } from 'path'
-import E from '../embedding.js'
-import M from '../model.js'
+import E from '../../llm/embedding.js'
+import M from '../../llm/model.js'
 
 const model = M('openai')
 const embeddings = E('openai')

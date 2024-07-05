@@ -1,6 +1,6 @@
 import { StructuredOutputParser } from "langchain/output_parsers";
 import { PromptTemplate } from "@langchain/core/prompts";
-import M from '../model.js';
+import M from '../../llm/model.js';
 
 const parser = StructuredOutputParser.fromNamesAndDescriptions({
   answer: "用户问题的答案",

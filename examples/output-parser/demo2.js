@@ -1,6 +1,6 @@
 import { CommaSeparatedListOutputParser } from "@langchain/core/output_parsers";
 import { PromptTemplate } from "@langchain/core/prompts";
-import M from '../model.js';
+import M from '../../llm/model.js';
 
 const parser = new CommaSeparatedListOutputParser();
 

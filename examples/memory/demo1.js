@@ -2,7 +2,7 @@ import { ChatPromptTemplate, MessagesPlaceholder } from "@langchain/core/prompts
 import { ChatMessageHistory } from "langchain/stores/message/in_memory";
 import { HumanMessage, SystemMessage } from "@langchain/core/messages";
 import { StringOutputParser } from "@langchain/core/output_parsers";
-import M from '../model.js';
+import M from '../../llm/model.js';
 
 const chatModel = M('openai');
 const outputPraser = new StringOutputParser();

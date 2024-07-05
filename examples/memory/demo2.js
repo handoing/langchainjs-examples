@@ -4,7 +4,7 @@ import { ChatMessageHistory } from "langchain/stores/message/in_memory";
 import { SystemMessage } from "@langchain/core/messages";
 import { StringOutputParser } from "@langchain/core/output_parsers";
 import { RunnableWithMessageHistory } from "@langchain/core/runnables";
-import M from '../model.js';
+import M from '../../llm/model.js';
 
 function generateSessionId() {
     return crypto.randomBytes(16).toString('hex');
