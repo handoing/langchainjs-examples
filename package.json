@@ -14,6 +14,9 @@
     "dotenv": "^16.4.5",
     "klaw-sync": "^6.0.0",
     "langchain": "^0.2.8",
-    "terminal-kit": "^3.1.1"
+    "node-fetch": "^3.3.2",
+    "terminal-kit": "^3.1.1",
+    "zod": "^3.23.8",
+    "zod-to-json-schema": "^3.23.1"
   }
 }
