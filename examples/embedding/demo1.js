@@ -10,6 +10,7 @@ const docs = await loader.load();
 
 console.log(docs)
 
+// https://github.com/gkamradt/ChunkViz
 const splitter = new RecursiveCharacterTextSplitter({
     chunkSize: 64,
     chunkOverlap: 0,
